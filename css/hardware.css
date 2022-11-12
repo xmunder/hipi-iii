@@ -1,0 +1,94 @@
+﻿html{
+    background-color: white;
+}
+body{
+    margin: 0px 0px 0px 0px;
+}
+h1, h2, h3{
+    color: #00ABB3;
+}
+.menu-home{
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    color: #00ABB3;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
+.tittle{
+    display: inline;
+    padding-left: 450px ;
+    font-size: 40px;
+    font-family: "Font Awesome 6 Free";
+}
+.menu-home-icon{
+    text-decoration: none;
+    padding: 0px 0px 0px 20px;
+    color: #03a7af;
+    font-size: 40px;
+}
+.main-content{
+    display: flex;
+    text-align: justify;
+    padding: 25px 50px 25px 25px;
+}
+.text-image{
+    text-align: center;
+}
+.img1{
+    padding: 0px 0px 40px 25px;
+    width: 483px;
+    height: 400px;
+}
+.img2{
+    padding: 0px 0px 40px 25px;
+    width: 483px;
+    height: 400px;
+}
+.container-image{
+    text-align: left;
+    padding: 0px 25px 0px 0px;
+}
+.content-wrap{
+    color: #3C4048;
+    padding: 5px 25px 5px 25px;
+    border-style: solid;
+    border-color: #B2B2B2;
+    border-width: 5px 5px 5px 5px;
+    background-color: #EAEAEA;
+    border-radius: 5% 5% 5% 5%;
+}
+.text-image{
+    text-decoration:solid;
+}
+.video-content{
+    text-align: center;
+}
+.title-video{
+    margin:50px 300px 0px 300px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    font-size: 40px;
+    font-family: "Font Awesome 6 Free";
+}
+iframe{
+    padding: 50px 0px 50px 0px;
+}
+.footer-container{
+    padding: 20px 0px 20px 100px;
+    background-color: #000000;
+    font-size: 15px;
+    border-radius: 10% 10% 0 0;
+}
+.text-footer{
+    display: flex;
+    color: #fff;
+}
+.mail-icon{
+    margin-left: 500px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+.bold-footer{
+    color: #03a7af;
+}

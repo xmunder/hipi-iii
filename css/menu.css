@@ -1,0 +1,57 @@
+﻿html{
+    background-color: white;
+}
+body{
+    margin: 0px 0px 0px 0px;
+}
+.menu-home{
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    color: #00ABB3;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
+.tittle{
+    margin: 20px 0px 20px 0px;
+    font-size: 40px;
+    font-family: "Font Awesome 6 Free";
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: "Font Awesome 6 Free";
+}
+span{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #00aab373;
+    top: -50%;
+    left: -100%;
+    transition: 0.5s;
+}
+.menu-content{
+    text-align: center;
+    margin: 100px 400px 100px 400px;
+}
+.computer-item, .software-item, .hardware-item{
+    margin: 50px 50px 50px 50px;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-style: solid;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.computer-item:hover span{
+    left: -10%;
+}
+.software-item:hover span{
+    left: -10%;
+}
+.hardware-item:hover span{
+    left: -10%;
+}
